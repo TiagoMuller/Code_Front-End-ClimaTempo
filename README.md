@@ -8,6 +8,10 @@ A API fetch é utilizada para fazer a chamada a uma API externa, que retorna inf
 
 A função consultarCidade() é acionada quando o usuário clica no botão "Consultar". Ela obtém o valor digitado pelo usuário, constrói a URL da API com base nessa informação e faz a chamada utilizando o método fetch(). Se a chamada for bem sucedida, a resposta é convertida para JSON e as informações relevantes são exibidas na página.
 
+Em seguida, o JavaScript processa a resposta da API, extraindo os dados referentes ao clima da cidade consultada. Com esses dados, o JavaScript atualiza a página HTML com as informações recebidas da API, tais como temperatura, tempo e horário da consulta. Além disso, uma imagem de acordo com o horário atual é exibida na página.
+
+Caso o usuário não preencha o campo de cidade, uma mensagem de erro é exibida na tela.
+
 Além disso, a página também exibe uma imagem que muda de acordo com o horário do dia. A imagem é selecionada com base na hora atual obtida utilizando o objeto Date() do JavaScript.
 
 Em resumo, o projeto utiliza tecnologias como HTML, CSS e JavaScript para criar uma aplicação web que faz uso da API fetch para obter informações sobre o clima de uma cidade e exibir essas informações na página.
@@ -21,14 +25,6 @@ CSS
 JavaScript
 
 API Fetch
-
-# Descrição:
-
-O projeto consiste em uma página HTML com um formulário onde o usuário deve digitar o nome da cidade desejada e, ao clicar no botão "Consultar", o JavaScript faz uma requisição para a API pública do Clima Tempo, passando como parâmetro o nome da cidade.
-
-Em seguida, o JavaScript processa a resposta da API, extraindo os dados referentes ao clima da cidade consultada. Com esses dados, o JavaScript atualiza a página HTML com as informações recebidas da API, tais como temperatura, tempo e horário da consulta. Além disso, uma imagem de acordo com o horário atual é exibida na página.
-
-Caso o usuário não preencha o campo de cidade, uma mensagem de erro é exibida na tela.
 
 # Como utilizar:
 
