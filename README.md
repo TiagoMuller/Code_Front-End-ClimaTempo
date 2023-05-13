@@ -15,6 +15,10 @@ Caso o usuário não preencha o campo de cidade, uma mensagem de erro é exibida
 Além disso, a página também exibe uma imagem que muda de acordo com o horário do dia. A imagem é selecionada com base na hora atual obtida utilizando o objeto Date() do JavaScript.
 
 Em resumo, o projeto utiliza tecnologias como HTML, CSS e JavaScript para criar uma aplicação web que faz uso da API fetch para obter informações sobre o clima de uma cidade e exibir essas informações na página.
+![Screenshot_3](https://github.com/TiagoMuller/Code_Front-End-ClimaTempo/assets/39675368/f02623ba-1a5b-407d-92a4-35b8bf04b78c)
+![Screenshot_4](https://github.com/TiagoMuller/Code_Front-End-ClimaTempo/assets/39675368/2bf597f6-2aff-4c57-8d58-beb74f5c8539)
+![Screenshot_16](https://github.com/TiagoMuller/Code_Front-End-ClimaTempo/assets/39675368/90dbeb7d-9141-4458-9577-f3a87b9daf5f)
+
 
 # Ferramentas utilizadas: 
 
