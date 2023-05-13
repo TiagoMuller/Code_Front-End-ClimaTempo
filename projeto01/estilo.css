@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to left, rgb(15, 15, 61), red, rgb(15, 15, 61));
+    
+    text-shadow:  5px 5px 10px rgba(0, 0, 0, 0.281); ;
+}
+
+header{
+    font: italic 15pt arial;
+    color: white;
+    text-align: center;
+}
+section{
+    color: white;
+    background-color: white;
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.466),rgba(0, 38, 255, 0.705));
+    font: italic 20pt arial;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.432); 
+}
+img{
+    width: 200px;  
+    height: 200px;
+    border-radius: 50%;
+}
+input#city_name{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 239, 239, 0.849);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin-left: px;
+}
+input#botao{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 239, 239, 0.849);
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+div{
+    padding: 8px;
+}
+footer{
+    font: italic 20pt arial;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
